@@ -74,6 +74,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                 clicked.backgroundColor = colors[indexPath.row]
         
                 twoPicked.append(colors[indexPath.row])
+                twoIntPicked.append(indexPath.row + 1)
                 
                 twoIntPicked.append(indexPath.row )
                 
